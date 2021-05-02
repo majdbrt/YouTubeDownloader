@@ -3,15 +3,13 @@ from pytube import YouTube
 print('Welcome to this Youtube downloader!')
 
 savePath = input("Enter the download's path: ")
-if savePath == 'default' or savePath == 'Default':
-    savePath = r"C:\Users\majdb\Videos"
 url = input("Enter the video's url: ")
 try:
     video = YouTube(url)
 except:
     print("Connot retrieve video")
 
-def getResolution():
+def  getResolution():
     quality = input("Enter video's resolution: ")
     if quality == 'default' or quality == 'Default':
         return  '360p'
