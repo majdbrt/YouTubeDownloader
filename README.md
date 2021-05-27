@@ -1,5 +1,6 @@
 # YouTubeDownloader
-A script to download YouTube videos and save them on your device
+A software to download YouTube videos with a GUI implementation using PyQT5.
+
 
 
 ![Capture](https://user-images.githubusercontent.com/54665027/119860428-edb35400-bedb-11eb-9c0c-a6f2ba80e962.PNG)
